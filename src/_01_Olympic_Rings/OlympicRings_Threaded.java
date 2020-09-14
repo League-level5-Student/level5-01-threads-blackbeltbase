@@ -22,17 +22,11 @@ public static void main(String[] args) {
 	robot3.setPenColor(Color.red);
 	robot4.setPenColor(Color.yellow);
 	robot5.setPenColor(Color.green);
-
-	Thread r1 = new Thread(()->robot.moveTo(300, 300));
-	Thread r2 = new Thread(()->robot2.moveTo(450, 300));
-	Thread r3 = new Thread(()->robot3.moveTo(600, 300));
-	Thread r4 = new Thread(()->robot4.moveTo(350, 450));
-	Thread r5 = new Thread(()->robot5.moveTo(500, 450));
-	r1.start();
-	r2.start();
-	r3.start();
-	r4.start();
-	r5.start();
+	robot.moveTo(300,300);
+	robot2.moveTo(450,300);
+	robot3.moveTo(600,300);
+	robot4.moveTo(350,450);
+	robot5.moveTo(500,450);
 	robot.penDown();
 	robot2.penDown();
 	robot3.penDown();

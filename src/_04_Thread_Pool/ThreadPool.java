@@ -16,10 +16,6 @@ public class ThreadPool {
 		
 	}
 
-	public void addTask(Object object) {
-		// TODO Auto-generated method stub
-		
-	}
 
 
 
